@@ -1,0 +1,14 @@
+# PracticasGit
+- En el paso 11 utilicé el comando "git reset --hard HEAD~1" porque había que deshacer cambios perdiendo la copia de working copy, por esa razón opte por añadir --hard.
+- En el paso 12 utilicé los comandos "git reflog", "git checkout", "git branch -d styled" y "git branch styled", porque necesitaba encontrar la ubicación del último commit para poderme situar sobre él, al situarme sobre él he borrado la rama y la he vuelto a crear sobre ese commit para añadirlo a la rama.
+- El merge del paso 13 no causó ningún conflicto porque no se había modificado un archivo común.
+- El merge del paso 19 causó conflicto por encontrarse modificado el mismo archivo en las mismas líneas en ambas ramas.
+- El merge del paso 21 no causó conflicto porque no se había modificado el mismo archivo en las dos ramas.
+- En el paso 25 utilicé el siguiente comando "git log --graph".
+- El merge del paso 26 podría hacerse fast forward porque no necesita que se realice un commit nuevo al hacer el merge ya que la rama master es el padre directo de title.
+- En el paso 27 utilicé los comandos "git log" y "git reset".
+- En el paso 28 "git checkout HEAD~1", "git branch -D master" y "git branch master".
+- En el paso 29 "git branch -D title".
+- En el paso 30 "git reflog", "git checkout", "git branch title", "git checkout master", "git merge --no-ff title".
+- En el paso 32 "git log", "git checkout", "git branch -D master", "git branch master".
+- En el paso 33 "git reflog", "git checkout", "git branch -d master", "git branch master".
